@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #f51aa4;
+}
+
+body {
+  color: #c2c1c2;
+  font-family: "teko";
+}
+
+main {
+  background-color: #42213d;
+}
+
+footer {
+  background-color: #683257;
+}
+
+.purple {
+  color: #bd4089;
+}
+
+.yellow {
+  color: gold;
+}
+.bolded {
+  font-weight: bolder;
+}
+.italicized {
+  font-style: italic;
+}
+
+img {
+  max-width: 150px;
+}
+
+ol {
+  border-left: 5rem; /* Adds left border */
+  padding-left: 5rem; /* Adds space between the list content and the left border */
+  list-style-position: inside; /* Moves the numbers inside the list to align with the content */
+}
+
+/*
+selector
+egenskap 
+verdi
+class kan du bruke flere ganger .
+id kan brukes en gang #
+*/
