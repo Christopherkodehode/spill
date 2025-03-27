@@ -35,6 +35,9 @@ footer {
   font-style: italic;
 }
 
+#picture-container {
+  margin-left: 60px;
+}
 img {
   max-width: 150px;
 }
@@ -45,6 +48,32 @@ ol {
   list-style-position: inside; /* Moves the numbers inside the list to align with the content */
 }
 
+.containers {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  gap: 5px;
+  background-color: darkgrey;
+  border: solid 1px rgb(235, 17, 17);
+}
+
+.item4 {
+  flex-grow: 1;
+  align-items: center;
+  background-color: rgb(230, 173, 225);
+  padding: 60px; /* Space inside the box */
+  border: 20px solid rgb(189, 139, 233);
+}
+
+.containers > div {
+  height: 200px;
+  width: 200px;
+  background-color: bisque;
+}
+
 /*
 selector
 egenskap 
@@ -53,19 +82,11 @@ class kan du bruke flere ganger .
 id kan brukes en gang #
 */
 
-.containers {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  width: 100vh;
-  gap: 5px;
-}
-
+/*
 .item {
   height: 80px;
   width: 80px;
   background-color: darkgrey;
   border: solid 1px rgb(235, 17, 17);
 }
+*/
